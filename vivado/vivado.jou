@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu Jun 24 04:52:39 2021
-# Process ID: 1712
+# Start of session at: Thu Jun 24 14:34:06 2021
+# Process ID: 3352
 # Current directory: D:/Ripositories/ARM32_SRAM
 # Command line: vivado.exe -mode batch -source vivado/vivado.tcl -tempDir vivado -log vivado/vivado.log -jou vivado/vivado.jou
 # Log file: D:/Ripositories/ARM32_SRAM/vivado/vivado.log

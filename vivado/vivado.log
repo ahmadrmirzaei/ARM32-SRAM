@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu Jun 24 04:52:39 2021
-# Process ID: 1712
+# Start of session at: Thu Jun 24 14:34:06 2021
+# Process ID: 3352
 # Current directory: D:/Ripositories/ARM32_SRAM
 # Command line: vivado.exe -mode batch -source vivado/vivado.tcl -tempDir vivado -log vivado/vivado.log -jou vivado/vivado.jou
 # Log file: D:/Ripositories/ARM32_SRAM/vivado/vivado.log
@@ -11,7 +11,7 @@
 #-----------------------------------------------------------
 source vivado/vivado.tcl
 # read_verilog -sv ./dataPath.sv
-read_verilog: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.934 ; gain = 0.000
+read_verilog: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1162.500 ; gain = 0.000
 # synth_design -top dataPath -part xc7vx485tffg1157-1
 Command: synth_design -top dataPath -part xc7vx485tffg1157-1
 Starting synth_design
@@ -19,9 +19,9 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 10200
+INFO: [Synth 8-7075] Helper process launched with PID 4740
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.934 ; gain = 0.000
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1162.500 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'dataPath' [D:/Ripositories/ARM32_SRAM/dataPath.sv:10]
 INFO: [Synth 8-6157] synthesizing module 'instFetch' [D:/Ripositories/ARM32_SRAM/IF/instFetch.sv:6]
@@ -72,9 +72,11 @@ INFO: [Synth 8-6157] synthesizing module 'mem' [D:/Ripositories/ARM32_SRAM/MEM/m
 INFO: [Synth 8-6157] synthesizing module 'sramCTRL' [D:/Ripositories/ARM32_SRAM/MEM/sramCTRL.sv:3]
 INFO: [Synth 8-6155] done synthesizing module 'sramCTRL' (15#1) [D:/Ripositories/ARM32_SRAM/MEM/sramCTRL.sv:3]
 INFO: [Synth 8-6157] synthesizing module 'sram' [D:/Ripositories/ARM32_SRAM/MEM/sram.sv:3]
-WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_SRAM/MEM/sram.sv:17]
-WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_SRAM/MEM/sram.sv:28]
-WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_SRAM/MEM/sram.sv:38]
+	Parameter RAM_WIDTH bound to: 32 - type: integer 
+	Parameter RAM_DEPTH bound to: 512 - type: integer 
+WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_SRAM/MEM/sram.sv:20]
+WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_SRAM/MEM/sram.sv:31]
+WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_SRAM/MEM/sram.sv:41]
 INFO: [Synth 8-6155] done synthesizing module 'sram' (16#1) [D:/Ripositories/ARM32_SRAM/MEM/sram.sv:3]
 INFO: [Synth 8-6157] synthesizing module 'memReg' [D:/Ripositories/ARM32_SRAM/MEM/memReg.sv:3]
 INFO: [Synth 8-6155] done synthesizing module 'memReg' (17#1) [D:/Ripositories/ARM32_SRAM/MEM/memReg.sv:3]
@@ -88,10 +90,10 @@ INFO: [Synth 8-6155] done synthesizing module 'forward' (21#1) [D:/Ripositories/
 INFO: [Synth 8-251] x: 32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [D:/Ripositories/ARM32_SRAM/dataPath.sv:132]
 INFO: [Synth 8-6155] done synthesizing module 'dataPath' (22#1) [D:/Ripositories/ARM32_SRAM/dataPath.sv:10]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1143.934 ; gain = 0.000
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1162.500 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1143.934 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1162.500 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -99,10 +101,10 @@ Start Loading Part and Timing Information
 Loading part: xc7vx485tffg1157-1
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1143.934 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1162.500 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 1215.039 ; gain = 71.105
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1213.047 ; gain = 50.547
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -154,20 +156,20 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:33 ; elapsed = 00:01:37 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:01:27 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:34 ; elapsed = 00:01:38 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Timing Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:01:27 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:39 ; elapsed = 00:01:44 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:01:33 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -185,37 +187,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:45 ; elapsed = 00:01:49 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished IO Insertion : Time (s): cpu = 00:01:35 ; elapsed = 00:01:38 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:45 ; elapsed = 00:01:49 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:35 ; elapsed = 00:01:38 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:36 ; elapsed = 00:01:40 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:36 ; elapsed = 00:01:40 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:37 ; elapsed = 00:01:40 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:37 ; elapsed = 00:01:40 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -270,34 +272,32 @@ Report Instance Areas:
 |16    |    srm        |sram           | 23968|
 +------+---------------+---------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:47 ; elapsed = 00:01:52 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:37 ; elapsed = 00:01:40 . Memory (MB): peak = 1640.602 ; gain = 478.102
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:47 ; elapsed = 00:01:52 . Memory (MB): peak = 1643.812 ; gain = 499.879
-Synthesis Optimization Complete : Time (s): cpu = 00:01:47 ; elapsed = 00:01:52 . Memory (MB): peak = 1643.812 ; gain = 499.879
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:37 ; elapsed = 00:01:40 . Memory (MB): peak = 1640.602 ; gain = 478.102
+Synthesis Optimization Complete : Time (s): cpu = 00:01:37 ; elapsed = 00:01:40 . Memory (MB): peak = 1640.602 ; gain = 478.102
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.426 . Memory (MB): peak = 1643.812 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.406 . Memory (MB): peak = 1640.602 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 3313 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 WARNING: [Netlist 29-101] Netlist 'dataPath' is not ideal for floorplanning, since the cellview 'sram' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1643.812 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1640.602 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 58 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:02 ; elapsed = 00:02:08 . Memory (MB): peak = 1643.812 ; gain = 499.879
+synth_design: Time (s): cpu = 00:01:51 ; elapsed = 00:01:57 . Memory (MB): peak = 1640.602 ; gain = 478.102
 # report_utilization -file ./vivado/util.rpt
 # report_timing -file ./vivado/timing.rpt
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
-report_timing: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 2023.039 ; gain = 379.227
+report_timing: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 2022.730 ; gain = 382.129
 # write_verilog -force ./vivado/ver.v
 # start_gui
-exit
-INFO: [Common 17-206] Exiting Vivado at Thu Jun 24 04:57:29 2021...

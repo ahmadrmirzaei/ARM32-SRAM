@@ -1,0 +1,102 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 3352
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Jun 24 14:36:47 IRDT 2021
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Asus
+User home directory: C:/Users/Asus
+User working directory: D:/Ripositories/ARM32_SRAM
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Ripositories/ARM32_SRAM/vivado/vivado.log
+Vivado journal file location: 	D:/Ripositories/ARM32_SRAM/vivado/vivado.jou
+Engine tmp dir: 	vivado/.Xil_Asus/Vivado-3352-DESKTOP-LQ4E1T9
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_SDK: C:/Xilinx/Vitis/2020.2
+XILINX_VITIS: C:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	203 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 2,549 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 38 MB (+37855kb) [00:00:03]
+// [Engine Memory]: 2,195 MB (+2149657kb) [00:00:03]
+// [GUI Memory]: 41 MB (+102kb) [00:00:03]
+// [GUI Memory]: 72 MB (+31169kb) [00:00:03]
+// Xgd.load filename: C:/Xilinx/Vivado/2020.2/data/parts/xilinx/virtex7/devint/virtex7/xc7vx485t/xc7vx485t.xgd; ZipEntry: xc7vx485t_detail.xgd elapsed time: 0.6s
+// [GUI Memory]: 84 MB (+8155kb) [00:00:04]
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.8s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.2s
+// [GUI Memory]: 112 MB (+24932kb) [00:00:05]
+// [Engine Memory]: 2,401 MB (+101366kb) [00:00:05]
+// Device: addNotify
+// [GUI Memory]: 120 MB (+2442kb) [00:00:10]
+// [GUI Memory]: 134 MB (+8904kb) [00:00:10]
+// DeviceView Instantiated
+// TclEventType: START_PROGRESS_DIALOG
+// [Engine Memory]: 2,522 MB (+964kb) [00:00:12]
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: STOP_PROGRESS_DIALOG
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [GUI Memory]: 158 MB (+17602kb) [00:00:13]
+// bz (cr):  Sourcing Tcl script 'vivado/vivado.tcl' : addNotify
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Sourcing Tcl script 'vivado/vivado.tcl'"); // bz
+// Device view-level: 0.0
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 2,551 MB. GUI used memory: 104 MB. Current time: 6/24/21, 3:14:22 PM IRDT
